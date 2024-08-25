@@ -1,0 +1,17 @@
+<table class="single-square">
+  <tr>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row][column]"></td>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row][column + 1]"></td>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row][column + 2]"></td>
+  </tr>
+  <tr>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row + 1][column]"></td>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row + 1][column + 1]"></td>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row + 1][column + 2]"></td>
+  </tr>
+  <tr>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row + 2][column]"></td>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row + 2][column + 1]"></td>
+    <td><input type="text" maxlength="1" [(ngModel)]="numbers[row + 2][column + 2]"></td>
+  </tr>
+</table>
